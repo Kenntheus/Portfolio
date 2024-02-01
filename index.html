@@ -12,9 +12,11 @@
         <div class="logo">Martheus Kenn</div>
         <div>
           <ul class="nav-links">
+            <li><a href="#profile">Profile</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#experience">Experience</a></li>
             <li><a href="#projects">Projects</a></li>
+            <li><a href="#blog">Blog</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
@@ -28,9 +30,11 @@
             <span></span>
           </div>
           <div class="menu-links">
+            <li><a href="#profile" onclick="toggleMenu()">Profile</a></li>
             <li><a href="#about" onclick="toggleMenu()">About</a></li>
             <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
             <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#blog" onclick="toggleMenu()">Blog</a></li>
             <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
           </div>
         </div>
@@ -255,9 +259,67 @@
           src="./assets/arrow.png"
           alt="Arrow icon"
           class="icon arrow"
-          onclick="location.href='./#contact'"
+          onclick="location.href='./#blog'"
         />
       </section>
+      <section id="blog">
+        <p class="section__text__p1">Read My Latest</p>
+        <h1 class="title">Blog</h1>
+        
+        <div class="blog-post-container">
+          <div class="blog-post">
+            <img src="./assets/blog1.png" alt="Blog Post 1" class="blog-post-img">
+            <h2 class="experience-sub-title blog-post-title">Malicious Sites</h2>
+            <p class="blog-post-date">Published on March 19, 2023</p>
+            <p>This blog will explore what malicious websites are, how they work, and what you can do to protect yourself against them. 
+              We will also look at some of the most common types of malicious websites, including phishing sites, 
+              malware distribution sites, and fake shopping sites.</p>
+          </div>
+        </div>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#contact'"
+        />
+      </section>      
+      <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+          <div class="contact-info-container">
+            <img
+              src="./assets/email.png"
+              alt="Email icon"
+              class="icon contact-icon email-icon"
+            />
+            <p><a href="mailto:mare.banaag.up@phinmaed.com">mare.banaag.up@phinmaed.com</a></p>
+          </div>
+          <div class="contact-info-container">
+            <img
+              src="./assets/linkedin.png"
+              alt="LinkedIn icon"
+              class="icon contact-icon"
+            />
+            <p><a href="https://www.linkedin.com/in/martheus-kenn-banaag-667b80256/">LinkedIn</a></p>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <nav>
+          <div class="nav-links-container">
+            <ul class="nav-links">
+              <li><a href="#profile">Profile</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#experience">Experience</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#blog">Blog</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+        <p>Copyright &#169; 2024 Martheus Kenn. All Rights Reserved.</p>
+      </footer>
     <script src="script.js"></script>
 </body>
 </html>
